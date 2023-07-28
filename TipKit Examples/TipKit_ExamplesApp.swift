@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct TipKit_ExamplesApp: App {
@@ -13,10 +14,12 @@ struct TipKit_ExamplesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .task {
+                    try? await Tips.configure {
+                        DatastoreLocation(.applicationDefault)
+                        DisplayFrequency.immediate
+                    }
+                }
         }
     }
-    
-//    init() {
-//        TipsCenter.shared.configure()
-//    }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20B98782A73FB4900C34172 /* SimpleInlineTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */; };
+		C20B987A2A73FB5400C34172 /* SimpleInlineTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */; };
+		C2BD50AD2A73DFFE00583432 /* SimplePopOverTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */; };
+		C2BD50AF2A73E05B00583432 /* SimplePopOverTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */; };
 		C2D2A4442A32260E0032F7E7 /* TipKit_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2A4432A32260E0032F7E7 /* TipKit_ExamplesApp.swift */; };
 		C2D2A4482A32260E0032F7E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2A4472A32260E0032F7E7 /* ContentView.swift */; };
 		C2D2A44A2A32260F0032F7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D2A4492A32260F0032F7E7 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInlineTipScreen.swift; sourceTree = "<group>"; };
+		C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInlineTip.swift; sourceTree = "<group>"; };
+		C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopOverTipScreen.swift; sourceTree = "<group>"; };
+		C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopOverTip.swift; sourceTree = "<group>"; };
 		C2D2A4402A32260E0032F7E7 /* TipKit Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipKit Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D2A4432A32260E0032F7E7 /* TipKit_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKit_ExamplesApp.swift; sourceTree = "<group>"; };
 		C2D2A4472A32260E0032F7E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2BD50AA2A73DFED00583432 /* TipScreens */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */,
+				C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */,
+			);
+			path = TipScreens;
+			sourceTree = "<group>";
+		};
+		C2BD50AB2A73DFF300583432 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */,
+				C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
 		C2D2A4372A32260E0032F7E7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +80,8 @@
 			children = (
 				C2D2A4432A32260E0032F7E7 /* TipKit_ExamplesApp.swift */,
 				C2D2A4472A32260E0032F7E7 /* ContentView.swift */,
+				C2BD50AB2A73DFF300583432 /* Tips */,
+				C2BD50AA2A73DFED00583432 /* TipScreens */,
 				C2D2A4492A32260F0032F7E7 /* Assets.xcassets */,
 				C2D2A44B2A32260F0032F7E7 /* TipKit_Examples.entitlements */,
 				C2D2A44C2A32260F0032F7E7 /* Preview Content */,
@@ -141,6 +169,10 @@
 			files = (
 				C2D2A4442A32260E0032F7E7 /* TipKit_ExamplesApp.swift in Sources */,
 				C2D2A4482A32260E0032F7E7 /* ContentView.swift in Sources */,
+				C2BD50AD2A73DFFE00583432 /* SimplePopOverTipScreen.swift in Sources */,
+				C2BD50AF2A73E05B00583432 /* SimplePopOverTip.swift in Sources */,
+				C20B987A2A73FB5400C34172 /* SimpleInlineTip.swift in Sources */,
+				C20B98782A73FB4900C34172 /* SimpleInlineTipScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +306,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,8 +315,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -292,10 +325,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.TipKit-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +346,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,8 +355,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -330,10 +365,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.TipKit-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
