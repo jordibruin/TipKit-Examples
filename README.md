@@ -8,7 +8,7 @@ If you want to play around with Dynamic Islands / Live Activities, check out the
 If you want to play around with Swift Charts, check out the [📊 Swift Charts repo](https://github.com/jordibruin/Swift-Charts-Examples) as well!
 
 ## Todo
-- [ ] Get Popover tip on deeper view working
+- [x] Get Popover tip on deeper view working
 - [ ] Add Tips with rules
 - [ ] Get reset / show / hide all tips to work
 
