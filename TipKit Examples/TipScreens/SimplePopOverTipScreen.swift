@@ -15,9 +15,9 @@ struct SimplePopOverTipScreen: View {
     private let tip = SimplePopOverTip()
     
     var body: some View {
-//        List {
-            Text("This screen should show a popover tip which you can present from buttons in your toolbar for example. It's not working right now though..")
-//        }
+        List {
+            Text("This screen shows a popover tip which you can present from buttons in your toolbar for example.")
+        }
         
         .navigationTitle("Simple Popover Tip")
         .toolbar {
@@ -25,10 +25,16 @@ struct SimplePopOverTipScreen: View {
                 Button(action: {
                     simplePopOverTipFavorited.toggle()
                 }) {
-                    Text("TEST")
+                    Image(systemName: "star")
                 }
                 .popoverTip(tip, arrowEdge: .top, action: { action in
-                    print(action)
+                    if action.id == "learn-more" {
+                        print("Used tapped on Learn More")
+                    }
+                    
+                    if action.id == "remove" {
+                        print("Used tapped on Remove")
+                    }
                 })
             }
             )

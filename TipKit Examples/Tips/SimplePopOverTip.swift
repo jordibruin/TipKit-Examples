@@ -13,12 +13,13 @@ struct SimplePopOverTip: Tip {
         Text("Tip Title #1")
     }
 
-    var message: Text {
-        Text("This is the message for Tip #1")
+    // Text needs to be optional, otherwise it does not show up.
+    var message: Text? {
+        Text("This is the message for the Simple Popover Tip.")
     }
 
-    var asset: Image {
-        Image(systemName: "star")
+    var asset: Image? {
+        Image(systemName: "lightbulb.fill")
     }
 
     var actions: [Action] {
@@ -26,6 +27,10 @@ struct SimplePopOverTip: Tip {
             Tip.Action(
                 id: "learn-more",
                 title: "Learn More"
+            ),
+            Tip.Action(
+                id: "remove",
+                title: "Remove"
             )
         ]
     }
