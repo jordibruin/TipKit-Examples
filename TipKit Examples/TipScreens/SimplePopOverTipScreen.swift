@@ -20,16 +20,18 @@ struct SimplePopOverTipScreen: View {
         }
         .navigationTitle("Simple Popover Tip")
         .toolbar {
-            ToolbarItem {
+            ToolbarItem(placement: .topBarTrailing, content: {
                 Button(action: {
                     simplePopOverTipFavorited.toggle()
                 }) {
-                    Label("Favorite", systemImage: simplePopOverTipFavorited ? "heart.fill" : "heart")
+                    Text("TEST")
+//                    Label("Favorite", systemImage: simplePopOverTipFavorited ? "heart.fill" : "heart")
                 }
-                .popoverTip(tip, arrowEdge: .trailing, action: { action in
+                .popoverTip(tip, arrowEdge: .top, action: { action in
                     print(action)
                 })
             }
+            )
         }
     }
 }

@@ -11,7 +11,7 @@ import TipKit
 struct ContentView: View {
     
     
-    private let tip = SimplePopOverTip()
+    private var tip = SimplePopOverTip()
     
     var body: some View {
         NavigationView {
@@ -22,7 +22,7 @@ struct ContentView: View {
                     } label: {
                         Text("Popover")
                     }
-                    
+
                     NavigationLink {
                         SimpleInlineTipScreen()
                     } label: {
@@ -31,7 +31,6 @@ struct ContentView: View {
                 } header: {
                     Text("Simple Tips")
                 }
-//
                 
                 Section {
                     Button {
@@ -39,38 +38,108 @@ struct ContentView: View {
                     } label: {
                         Text("Show All Tips")
                     }
-                    
+
                     Button {
                         Tips.hideAllTips()
                     } label: {
                         Text("Hide All Tips")
                     }
-                    
+
                     Button {
-                        
+
 //                        Tips.showTips([simplePopOverTip])
-                        
+
                     } label: {
                         Text("Show Tip")
                     }
                 } header: {
                     Text("Testing")
                 }
-                
-                Section {
-                    Button(action: {
-                        print("TESt")
-                    }, label: {
-                        Text("TEST")
-                    })
-                    .popoverTip(tip, arrowEdge: .bottom, action: { action in
-                        print(action)
+            }
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing, content: {
+                        Button(action: {}, label: {
+                            Image (systemName: "star")
+                        })
+                        .popoverTip(tip, arrowEdge: .top)
                     })
                 }
-            }
-            
         }
     }
+//    var body: some View {
+//        NavigationView {
+//            List {
+//                Section {
+//                    NavigationLink {
+//                        SimplePopOverTipScreen()
+//                    } label: {
+//                        Text("Popover")
+//                    }
+//                    
+//                    NavigationLink {
+//                        SimpleInlineTipScreen()
+//                    } label: {
+//                        Text("Inline")
+//                    }
+//                } header: {
+//                    Text("Simple Tips")
+//                }
+////
+//                
+//                Section {
+//                    Button {
+//                        Tips.showAllTips()
+//                    } label: {
+//                        Text("Show All Tips")
+//                    }
+//                    
+//                    Button {
+//                        Tips.hideAllTips()
+//                    } label: {
+//                        Text("Hide All Tips")
+//                    }
+//                    
+//                    Button {
+//                        
+////                        Tips.showTips([simplePopOverTip])
+//                        
+//                    } label: {
+//                        Text("Show Tip")
+//                    }
+//                } header: {
+//                    Text("Testing")
+//                }
+//                
+////                Section {
+////                    Button(action: {
+////                        print("TESt")
+////                    }, label: {
+////                        Text("TEST")
+////                    })
+//////                    .popoverTip(tip, arrowEdge: .bottom, action: { action in
+//////                        print(action)
+//////                    })
+////                }
+//            }
+//            .toolbar {
+//                ToolbarItem {
+//                    Button(action: {
+//                        
+//                    }) {
+//                        Label("Favorite", systemImage: "heart.fill")
+//                    }
+//                    .popoverTip(tip, arrowEdge: .top, action: { action in
+//                        print(action)
+//                    })
+//                }
+//            }
+//            .navigationTitle("TipKit Examples")
+//        }
+//    }
+    
+    
+    
+    
 }
 
 #Preview {
