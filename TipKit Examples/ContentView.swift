@@ -63,7 +63,7 @@ struct ContentView: View {
                     }, label: {
                         Text("TEST")
                     })
-                    .popoverTip(tip, arrowEdge: .trailing, action: { action in
+                    .popoverTip(tip, arrowEdge: .bottom, action: { action in
                         print(action)
                     })
                 }

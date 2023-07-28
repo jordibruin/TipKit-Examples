@@ -16,7 +16,7 @@ struct SimplePopOverTipScreen: View {
     
     var body: some View {
         List {
-            Text("This screen shows a popover tip which you can present from buttons in your toolbar for example.")
+            Text("This screen should show a popover tip which you can present from buttons in your toolbar for example. It's not working right now though..")
         }
         .navigationTitle("Simple Popover Tip")
         .toolbar {
