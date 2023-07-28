@@ -29,15 +29,7 @@ struct SimpleInlineTipScreen: View {
             
             TipView(tip)
         }
-        .toolbar(content: {
-            ToolbarItem {
-                Button(action: {
-//                    Tips.showTips([tip])
-                }, label: {
-                    Text("Show Tip")
-                })
-            }
-        })
+        .animation(.spring())
         .padding(12)
         .navigationTitle("Simple Inline Tip")
     }
