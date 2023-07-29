@@ -1,7 +1,7 @@
 # TipKit Examples
 This repo aims to provide sample code for how to implement TipKit in your apps. Initially the focus will be on simple implementations but overtime we can hopefully add more complex context and controls as well.
 
-<img width="500" alt="image" src="https://github.com/jordibruin/TipKit-Examples/assets/170948/33461d69-d379-4812-a4ed-48984d1cbd18">
+<img width="500" alt="image" src="https://github.com/jordibruin/TipKit-Examples/assets/170948/4f54a2df-c3c2-46b3-bcaa-1288fbbbe309">
 
 ## Current Tips
 - [x] Simple Popover Tip
