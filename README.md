@@ -3,6 +3,16 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 
 <img width="1512" alt="image" src="https://github.com/jordibruin/TipKit-Examples/assets/170948/fc4d7041-5a7d-4e13-816e-69e6915c5f3b">
 
+## Current Tips
+- [x] Simple Popover Tip
+- [x] Simple Inline Tip
+- [x] Colored Text Tip
+- [x] Colored Background Tip
+- [x] Custom Corner Radius Tip
+- [ ] Show after x visits to screen Tip
+- [ ] Show depending on user state Tip
+
+
 If you want to play around with Dynamic Islands / Live Activities, check out the [🏝 Dynamic Islands repo](https://github.com/jordibruin/Dynamic-Islands) as well!
 
 If you want to play around with Swift Charts, check out the [📊 Swift Charts repo](https://github.com/jordibruin/Swift-Charts-Examples) as well!
