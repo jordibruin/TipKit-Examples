@@ -12,13 +12,10 @@ struct SimplePopOverTipScreen: View {
     
     @AppStorage("simplePopOverTipFavorited") var simplePopOverTipFavorited: Bool = false
     
-    private let tip = SimplePopOverTip()
-    
     var body: some View {
         List {
             Text("This screen shows a popover tip which you can present from buttons in your toolbar for example.")
         }
-        
         .navigationTitle("Simple Popover Tip")
         .toolbar {
             ToolbarItem(placement: .topBarTrailing, content: {
@@ -27,7 +24,7 @@ struct SimplePopOverTipScreen: View {
                 }) {
                     Image(systemName: "star")
                 }
-                .popoverTip(tip, arrowEdge: .top, action: { action in
+                .popoverTip(SimplePopOverTip(), arrowEdge: .top, action: { action in
                     if action.id == "learn-more" {
                         print("Used tapped on Learn More")
                     }

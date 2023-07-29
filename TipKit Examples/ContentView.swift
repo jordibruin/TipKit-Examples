@@ -27,6 +27,17 @@ struct ContentView: View {
                 } header: {
                     Text("Simple Tips")
                 }
+                
+                Section {
+                    NavigationLink {
+                        ColoredTipScreen()
+                    } label: {
+                        Text("Colored")
+                            .foregroundStyle(.purple)
+                    }
+                } header: {
+                    Text("Custom Design")
+                }
             }
         }
     }

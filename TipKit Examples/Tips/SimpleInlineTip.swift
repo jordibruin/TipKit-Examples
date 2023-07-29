@@ -13,7 +13,8 @@ struct SimpleInlineTip: Tip {
         Text("Simple Inline Tip Title")
     }
 
-    var message: Text {
+    // Text needs to be optional, otherwise it does not show up.
+    var message: Text? {
         Text("This is the message for the Simple Inline Tip")
     }
 

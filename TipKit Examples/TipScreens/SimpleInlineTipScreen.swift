@@ -9,9 +9,7 @@ import SwiftUI
 import TipKit
 
 struct SimpleInlineTipScreen: View {
-    
-    private let tip = SimpleInlineTip()
-    
+        
     var body: some View {
         VStack {
             Spacer()
@@ -27,7 +25,7 @@ struct SimpleInlineTipScreen: View {
                 .frame(height: 100)
                 .cornerRadius(8)
             
-            TipView(tip)
+            TipView(SimpleInlineTip())
         }
         .animation(.spring())
         .padding(12)

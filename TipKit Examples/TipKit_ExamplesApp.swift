@@ -14,10 +14,21 @@ struct TipKit_ExamplesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            // You will need to configure TipKit at launch
+            // Provide different configurations depending on your needs
                 .task {
                     try? await Tips.configure {
+                        
+                        // Reset which tips have been shown and what parameters have been tracked, useful during testing and for this sample project
                         DatastoreLocation(.applicationDefault, shouldReset: true)
-                        DisplayFrequency.immediate
+                        
+                        // Don't reset which tips have been shown and what parameters have been tracked
+                        // DatastoreLocation(.applicationDefault, shouldReset: false)
+                        
+                        // When should the tips be presented? If you use .immediate, they'll all be presented whenever a screen with a tip appears.
+                        // You can adjust this on per tip level as well
+                        DisplayFrequency(.immediate)
                     }
                 }
         }
