@@ -10,21 +10,19 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 - [x] Colored Background Tip
 - [x] Custom Corner Radius Tip
 - [x] Tip with actions
+- [x] Tip that appears after a user action
+- [x] Present tip from a button on a screen
 - [ ] Show after x visits to screen Tip
 - [ ] Show depending on user state Tip
-- [ ] Tips with rules
-- [ ] Present tip from a button on a screen
-
-
+- [ ] More tips with complex rules
 
 ## Todo
 - [x] Get Popover tip on deeper view working
 - [x] Add tips with different styling
 - [x] Show multiple tips at the same time
-- [ ] Add Tips with rules
+- [ ] Add more tips with rules
 - [ ] Get reset / show / hide all tips to work
 - [ ] Add tips that don't show for certain users
-
 
 See the [open issues](https://github.com/jordibruin/TipKit-Examples/issues) if you think anything is missing from this list. You can also contact me on [Twitter](https://www.twitter.com/jordibruin) if you have any suggestions or feedback.
 
