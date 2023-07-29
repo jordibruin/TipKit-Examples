@@ -61,7 +61,7 @@ struct ContentView: View {
                             .foregroundStyle(.orange)
                     }
                 } header: {
-                    Text("Tips with Actions")
+                    Text("Actions")
                 }
                 
                 Section {
@@ -72,7 +72,7 @@ struct ContentView: View {
                             .foregroundStyle(.brown)
                     }
                 } header: {
-                    Text("Tips with Rules")
+                    Text("Rules")
                 }
             }
             .navigationTitle("TipKit Examples")
