@@ -16,13 +16,13 @@ struct ContentView: View {
                     NavigationLink {
                         SimplePopOverTipScreen()
                     } label: {
-                        Text("Popover")
+                        Label("Popover", systemImage: "rectangle.fill.on.rectangle.fill")
                     }
 
                     NavigationLink {
                         SimpleInlineTipScreen()
                     } label: {
-                        Text("Inline")
+                        Label("Inline", systemImage: "list.bullet.below.rectangle")
                     }
                 } header: {
                     Text("Simple Tips")
@@ -32,25 +32,39 @@ struct ContentView: View {
                     NavigationLink {
                         ColoredTipScreen()
                     } label: {
-                        Text("Colored")
+                        Label("Text Colored", systemImage: "paintpalette.fill")
                             .foregroundStyle(.purple)
                     }
                     
                     NavigationLink {
                         ColoredTipScreen(backgroundColored: true)
                     } label: {
-                        Text("Background Colored")
+                        Label("Background Colored", systemImage: "paintbrush.fill")
+                            .foregroundStyle(.blue)
                     }
                     
                     NavigationLink {
                         CornerRadiusTipScreen()
                     } label: {
-                        Text("Custom Corner Radius")
+                        Label("Custom Corner Radius", systemImage: "app.fill")
+                            .foregroundStyle(.green)
                     }
                 } header: {
                     Text("Custom Design")
                 }
+                
+                Section {
+                    NavigationLink {
+                        PopOverWithOptionsScreen()
+                    } label: {
+                        Label("Popover with Options", systemImage: "dock.rectangle")
+                            .foregroundStyle(.orange)
+                    }
+                } header: {
+                    Text("Tips with Options")
+                }
             }
+            .navigationTitle("TipKit Examples")
         }
     }
 }

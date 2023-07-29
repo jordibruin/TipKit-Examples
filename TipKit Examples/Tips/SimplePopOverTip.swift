@@ -10,7 +10,7 @@ import TipKit
 
 struct SimplePopOverTip: Tip {
     var title: Text {
-        Text("Tip Title #1")
+        Text("Simple Popover Title")
     }
 
     // Text needs to be optional, otherwise it does not show up.
@@ -22,16 +22,7 @@ struct SimplePopOverTip: Tip {
         Image(systemName: "lightbulb.fill")
     }
 
-    var actions: [Action] {
-        [
-            Tip.Action(
-                id: "learn-more",
-                title: "Learn More"
-            ),
-            Tip.Action(
-                id: "remove",
-                title: "Remove"
-            )
-        ]
+    var options: [TipOption] {
+        [Tip.MaxDisplayCount(100)]
     }
 }

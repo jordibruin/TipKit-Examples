@@ -21,13 +21,4 @@ struct SimpleInlineTip: Tip {
     var asset: Image {
         Image(systemName: "heart")
     }
-
-    var actions: [Action] {
-        [
-            Tip.Action(
-                id: "learn-more",
-                title: "Learn More"
-            )
-        ]
-    }
 }

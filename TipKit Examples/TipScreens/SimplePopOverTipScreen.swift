@@ -10,7 +10,7 @@ import TipKit
 
 struct SimplePopOverTipScreen: View {
     
-    @AppStorage("simplePopOverTipFavorited") var simplePopOverTipFavorited: Bool = false
+    @State var favorited: Bool = false
     
     var body: some View {
         List {
@@ -20,19 +20,12 @@ struct SimplePopOverTipScreen: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing, content: {
                 Button(action: {
-                    simplePopOverTipFavorited.toggle()
+                    favorited.toggle()
                 }) {
-                    Image(systemName: "star")
+                    Image(systemName: favorited ? "star.fill" : "star")
                 }
-                .popoverTip(SimplePopOverTip(), arrowEdge: .top, action: { action in
-                    if action.id == "learn-more" {
-                        print("Used tapped on Learn More")
-                    }
-                    
-                    if action.id == "remove" {
-                        print("Used tapped on Remove")
-                    }
-                })
+                .popoverTip(SimplePopOverTip(), arrowEdge: .top)
+    
             }
             )
         }
