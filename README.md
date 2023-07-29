@@ -11,7 +11,7 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 - [x] Custom Corner Radius Tip
 - [x] Tip with actions
 - [x] Tip that appears after a user action
-- [ ] Tip that appears after two user actions
+- [x] Tip that appears after two user actions
 - [x] Present tip from a button on a screen
 - [ ] Show after x visits to screen Tip
 - [ ] Show depending on user state Tip
