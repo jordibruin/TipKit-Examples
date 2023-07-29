@@ -71,6 +71,13 @@ struct ContentView: View {
                         Label("Simple Rule", systemImage: "checkmark.circle.fill")
                             .foregroundStyle(.brown)
                     }
+                    
+                    NavigationLink {
+                        DualRuleTipScreen()
+                    } label: {
+                        Label("Dual Rules", systemImage: "checklist.checked")
+                            .foregroundStyle(.red)
+                    }
                 } header: {
                     Text("Rules")
                 }
