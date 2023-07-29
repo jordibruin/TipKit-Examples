@@ -11,6 +11,9 @@ If you want to play around with Swift Charts, check out the [📊 Swift Charts r
 - [x] Get Popover tip on deeper view working
 - [ ] Add Tips with rules
 - [ ] Get reset / show / hide all tips to work
+- [ ] Add tips with different styling
+- [ ] Add tips that don't show for certain users
+- [ ] Show multiple tips at the same time
 
 See the [open issues](https://github.com/jordibruin/TipKit-Examples/issues) if you think anything is missing from this list. You can also contact me on [Twitter](https://www.twitter.com/jordibruin) if you have any suggestions or feedback.
 
