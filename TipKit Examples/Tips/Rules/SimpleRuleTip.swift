@@ -29,3 +29,7 @@ struct SimpleRuleTip: Tip {
         #Rule(Self.simpleRuleTipEnabled) { $0.donations.count >= 1 }
     }
 }
+
+
+//In Xcode 15 beta 5 rules don't work in the simulator unless you add this to extra swift flags in build settings
+//-external-plugin-path $(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins#$(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server
