@@ -9,9 +9,11 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 - [x] Colored Text Tip
 - [x] Colored Background Tip
 - [x] Custom Corner Radius Tip
-- [ ] Tip with actions
+- [x] Tip with actions
 - [ ] Show after x visits to screen Tip
 - [ ] Show depending on user state Tip
+- [ ] Tips with rules
+- [ ] Present tip from a button on a screen
 
 
 
