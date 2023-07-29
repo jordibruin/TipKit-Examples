@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C20B98782A73FB4900C34172 /* SimpleInlineTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */; };
 		C20B987A2A73FB5400C34172 /* SimpleInlineTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */; };
+		C21557232A75AC4000E59CA3 /* SimpleRuleTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21557222A75AC4000E59CA3 /* SimpleRuleTip.swift */; };
+		C21557262A75ADE500E59CA3 /* SimpleRuleTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21557252A75ADE500E59CA3 /* SimpleRuleTipScreen.swift */; };
 		C27A31D12A754787006861A6 /* ColoredTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31D02A754787006861A6 /* ColoredTipScreen.swift */; };
 		C27A31D32A75478E006861A6 /* ColoredTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31D22A75478E006861A6 /* ColoredTip.swift */; };
 		C27A31D52A754C05006861A6 /* CornerRadiusTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31D42A754C05006861A6 /* CornerRadiusTipScreen.swift */; };
 		C27A31D72A754C2D006861A6 /* CornerRadiusTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31D62A754C2D006861A6 /* CornerRadiusTip.swift */; };
 		C27A31D92A754E1F006861A6 /* PopOverWithActionsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31D82A754E1F006861A6 /* PopOverWithActionsTip.swift */; };
-		C27A31DB2A754E32006861A6 /* PopOverWithOptionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31DA2A754E32006861A6 /* PopOverWithOptionsScreen.swift */; };
+		C27A31DB2A754E32006861A6 /* PopOverWithActionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A31DA2A754E32006861A6 /* PopOverWithActionsScreen.swift */; };
 		C2BD50AD2A73DFFE00583432 /* SimplePopOverTipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */; };
 		C2BD50AF2A73E05B00583432 /* SimplePopOverTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */; };
 		C2D2A4442A32260E0032F7E7 /* TipKit_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2A4432A32260E0032F7E7 /* TipKit_ExamplesApp.swift */; };
@@ -26,12 +28,14 @@
 /* Begin PBXFileReference section */
 		C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInlineTipScreen.swift; sourceTree = "<group>"; };
 		C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInlineTip.swift; sourceTree = "<group>"; };
+		C21557222A75AC4000E59CA3 /* SimpleRuleTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRuleTip.swift; sourceTree = "<group>"; };
+		C21557252A75ADE500E59CA3 /* SimpleRuleTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRuleTipScreen.swift; sourceTree = "<group>"; };
 		C27A31D02A754787006861A6 /* ColoredTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredTipScreen.swift; sourceTree = "<group>"; };
 		C27A31D22A75478E006861A6 /* ColoredTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredTip.swift; sourceTree = "<group>"; };
 		C27A31D42A754C05006861A6 /* CornerRadiusTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusTipScreen.swift; sourceTree = "<group>"; };
 		C27A31D62A754C2D006861A6 /* CornerRadiusTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusTip.swift; sourceTree = "<group>"; };
 		C27A31D82A754E1F006861A6 /* PopOverWithActionsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverWithActionsTip.swift; sourceTree = "<group>"; };
-		C27A31DA2A754E32006861A6 /* PopOverWithOptionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverWithOptionsScreen.swift; sourceTree = "<group>"; };
+		C27A31DA2A754E32006861A6 /* PopOverWithActionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverWithActionsScreen.swift; sourceTree = "<group>"; };
 		C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopOverTipScreen.swift; sourceTree = "<group>"; };
 		C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePopOverTip.swift; sourceTree = "<group>"; };
 		C2D2A4402A32260E0032F7E7 /* TipKit Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipKit Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,14 +57,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2BD50AA2A73DFED00583432 /* TipScreens */ = {
+		C215571B2A75ABCD00E59CA3 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */,
+				C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		C215571C2A75ABD000E59CA3 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C27A31D22A75478E006861A6 /* ColoredTip.swift */,
+				C27A31D62A754C2D006861A6 /* CornerRadiusTip.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		C215571D2A75ABEB00E59CA3 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C27A31D82A754E1F006861A6 /* PopOverWithActionsTip.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		C215571E2A75ABF800E59CA3 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
 				C2BD50AC2A73DFFE00583432 /* SimplePopOverTipScreen.swift */,
-				C27A31DA2A754E32006861A6 /* PopOverWithOptionsScreen.swift */,
 				C20B98772A73FB4900C34172 /* SimpleInlineTipScreen.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		C215571F2A75ABFB00E59CA3 /* Design */ = {
+			isa = PBXGroup;
+			children = (
 				C27A31D02A754787006861A6 /* ColoredTipScreen.swift */,
 				C27A31D42A754C05006861A6 /* CornerRadiusTipScreen.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		C21557202A75ABFE00E59CA3 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C27A31DA2A754E32006861A6 /* PopOverWithActionsScreen.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		C21557212A75AC3400E59CA3 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C21557222A75AC4000E59CA3 /* SimpleRuleTip.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		C21557242A75ADD500E59CA3 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C21557252A75ADE500E59CA3 /* SimpleRuleTipScreen.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		C2BD50AA2A73DFED00583432 /* TipScreens */ = {
+			isa = PBXGroup;
+			children = (
+				C215571E2A75ABF800E59CA3 /* Simple */,
+				C215571F2A75ABFB00E59CA3 /* Design */,
+				C21557202A75ABFE00E59CA3 /* Actions */,
+				C21557242A75ADD500E59CA3 /* Rules */,
 			);
 			path = TipScreens;
 			sourceTree = "<group>";
@@ -68,11 +139,10 @@
 		C2BD50AB2A73DFF300583432 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
-				C2BD50AE2A73E05B00583432 /* SimplePopOverTip.swift */,
-				C27A31D82A754E1F006861A6 /* PopOverWithActionsTip.swift */,
-				C20B98792A73FB5400C34172 /* SimpleInlineTip.swift */,
-				C27A31D22A75478E006861A6 /* ColoredTip.swift */,
-				C27A31D62A754C2D006861A6 /* CornerRadiusTip.swift */,
+				C215571B2A75ABCD00E59CA3 /* Simple */,
+				C215571C2A75ABD000E59CA3 /* Design */,
+				C215571D2A75ABEB00E59CA3 /* Actions */,
+				C21557212A75AC3400E59CA3 /* Rules */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -189,14 +259,16 @@
 				C27A31D32A75478E006861A6 /* ColoredTip.swift in Sources */,
 				C27A31D12A754787006861A6 /* ColoredTipScreen.swift in Sources */,
 				C2D2A4442A32260E0032F7E7 /* TipKit_ExamplesApp.swift in Sources */,
-				C27A31DB2A754E32006861A6 /* PopOverWithOptionsScreen.swift in Sources */,
+				C27A31DB2A754E32006861A6 /* PopOverWithActionsScreen.swift in Sources */,
 				C2D2A4482A32260E0032F7E7 /* ContentView.swift in Sources */,
 				C27A31D92A754E1F006861A6 /* PopOverWithActionsTip.swift in Sources */,
 				C2BD50AD2A73DFFE00583432 /* SimplePopOverTipScreen.swift in Sources */,
 				C2BD50AF2A73E05B00583432 /* SimplePopOverTip.swift in Sources */,
 				C27A31D52A754C05006861A6 /* CornerRadiusTipScreen.swift in Sources */,
 				C20B987A2A73FB5400C34172 /* SimpleInlineTip.swift in Sources */,
+				C21557262A75ADE500E59CA3 /* SimpleRuleTipScreen.swift in Sources */,
 				C20B98782A73FB4900C34172 /* SimpleInlineTipScreen.swift in Sources */,
+				C21557232A75AC4000E59CA3 /* SimpleRuleTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +418,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-external-plugin-path $(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins#$(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.TipKit-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -386,6 +459,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-external-plugin-path $(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins#$(SYSTEM_DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.TipKit-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

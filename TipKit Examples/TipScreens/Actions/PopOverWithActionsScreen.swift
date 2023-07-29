@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PopOverWithOptionsScreen: View {
+struct PopOverWithActionsScreen: View {
     
     @State var favorited: Bool = false
     
@@ -39,5 +39,5 @@ struct PopOverWithOptionsScreen: View {
 }
 
 #Preview {
-    PopOverWithOptionsScreen()
+    PopOverWithActionsScreen()
 }

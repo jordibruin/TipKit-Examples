@@ -55,13 +55,24 @@ struct ContentView: View {
                 
                 Section {
                     NavigationLink {
-                        PopOverWithOptionsScreen()
+                        PopOverWithActionsScreen()
                     } label: {
-                        Label("Popover with Options", systemImage: "dock.rectangle")
+                        Label("Popover with Actions", systemImage: "dock.rectangle")
                             .foregroundStyle(.orange)
                     }
                 } header: {
-                    Text("Tips with Options")
+                    Text("Tips with Actions")
+                }
+                
+                Section {
+                    NavigationLink {
+                        SimpleRuleTipScreen()
+                    } label: {
+                        Label("Simple Rule", systemImage: "checkmark.circle.fill")
+                            .foregroundStyle(.brown)
+                    }
+                } header: {
+                    Text("Tips with Rules")
                 }
             }
             .navigationTitle("TipKit Examples")

@@ -35,8 +35,4 @@ struct PopOverWithActionsTip: Tip {
         ]
     }
     
-        
-    var options: [TipOption] {
-        [Tip.MaxDisplayCount(100)]
-    }
 }

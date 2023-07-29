@@ -21,8 +21,4 @@ struct SimplePopOverTip: Tip {
     var asset: Image? {
         Image(systemName: "lightbulb.fill")
     }
-
-    var options: [TipOption] {
-        [Tip.MaxDisplayCount(100)]
-    }
 }
