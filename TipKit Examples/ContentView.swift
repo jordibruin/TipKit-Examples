@@ -35,6 +35,18 @@ struct ContentView: View {
                         Text("Colored")
                             .foregroundStyle(.purple)
                     }
+                    
+                    NavigationLink {
+                        ColoredTipScreen(backgroundColored: true)
+                    } label: {
+                        Text("Background Colored")
+                    }
+                    
+                    NavigationLink {
+                        CornerRadiusTipScreen()
+                    } label: {
+                        Text("Custom Corner Radius")
+                    }
                 } header: {
                     Text("Custom Design")
                 }

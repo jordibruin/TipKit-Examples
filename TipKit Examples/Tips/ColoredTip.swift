@@ -24,3 +24,22 @@ struct ColoredTip: Tip {
         Image(systemName: "heart")
     }
 }
+
+
+struct BackgroundColoredTip: Tip {
+    var title: Text {
+        Text("Colored Tip Title")
+            .bold()
+            .foregroundStyle(.white)
+    }
+
+    // Text needs to be optional, otherwise it does not show up.
+    var message: Text? {
+        Text("This is the message for the Colored Tip")
+            .foregroundStyle(.white)
+    }
+
+    var asset: Image {
+        Image(systemName: "heart")
+    }
+}
