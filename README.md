@@ -1,7 +1,7 @@
 # TipKit Examples
 This repo aims to provide sample code for how to implement TipKit in your apps. Initially the focus will be on simple implementations but overtime we can hopefully add more complex context and controls as well.
 
-<img width="500" alt="image" src="https://github.com/jordibruin/TipKit-Examples/assets/170948/ddea1328-bb03-4bbf-b923-dd1b6d251dd9">
+<img width="500" alt="image" src="https://github.com/jordibruin/TipKit-Examples/assets/170948/f238d629-2191-435a-9b2e-804ee4f8922d">
 
 ## Current Tips
 - [x] Simple Popover Tip
@@ -13,9 +13,7 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 - [x] Tip that appears after a user action
 - [x] Tip that appears after two user actions
 - [x] Present tip from a button on a screen
-- [ ] Show after x visits to screen Tip
-- [ ] Show depending on user state Tip
-- [ ] More tips with complex rules
+- [x] Showing tip on a cell in a List
 
 ## Todo
 - [x] Get Popover tip on deeper view working
@@ -24,6 +22,9 @@ This repo aims to provide sample code for how to implement TipKit in your apps. 
 - [ ] Add more tips with rules
 - [ ] Get reset / show / hide all tips to work
 - [ ] Add tips that don't show for certain users
+- [ ] Show after x visits to screen Tip
+- [ ] Show depending on user state Tip
+- [ ] More tips with complex rules
 
 See the [open issues](https://github.com/jordibruin/TipKit-Examples/issues) if you think anything is missing from this list. You can also contact me on [Twitter](https://www.twitter.com/jordibruin) if you have any suggestions or feedback.
 
