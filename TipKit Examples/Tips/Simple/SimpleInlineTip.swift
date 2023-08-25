@@ -18,7 +18,7 @@ struct SimpleInlineTip: Tip {
         Text("This is the message for the Simple Inline Tip")
     }
 
-    var image: Image {
+    var image: Image? {
         Image(systemName: "heart")
     }
 }
