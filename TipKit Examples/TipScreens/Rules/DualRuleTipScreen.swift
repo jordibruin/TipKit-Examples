@@ -19,13 +19,17 @@ struct DualRuleTipScreen: View {
             
             Section {
                 Button {
-                    DualRuleTip.eventOneHappened.donate()
+                    Task {
+                        await DualRuleTip.eventOneHappened.donate()
+                    }
                 } label: {
                     Text("Fire Event One")
                 }
                 
                 Button {
-                    DualRuleTip.eventTwoHappened.donate()
+                    Task {
+                        await DualRuleTip.eventTwoHappened.donate()
+                    }
                 } label: {
                     Text("Fire Event Two")
                 }

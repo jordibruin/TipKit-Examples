@@ -20,7 +20,7 @@ struct ColoredTip: Tip {
         Text("This is the message for the Colored Tip")
     }
 
-    var asset: Image {
+    var image: Image {
         Image(systemName: "heart")
     }
 }
@@ -39,7 +39,7 @@ struct BackgroundColoredTip: Tip {
             .foregroundStyle(.white)
     }
 
-    var asset: Image {
+    var image: Image {
         Image(systemName: "heart")
     }
 }

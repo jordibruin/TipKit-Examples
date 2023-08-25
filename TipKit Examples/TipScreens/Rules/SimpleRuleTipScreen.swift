@@ -22,7 +22,9 @@ struct SimpleRuleTipScreen: View {
             
             Section {
                 Button {
-                    SimpleRuleTip.simpleRuleTipEnabled.donate()
+                    Task {
+                        await SimpleRuleTip.simpleRuleTipEnabled.donate()
+                    }
                 } label: {
                     Text("Enable this tip")
                 }
