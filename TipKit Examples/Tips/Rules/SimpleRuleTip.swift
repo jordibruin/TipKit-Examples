@@ -21,7 +21,7 @@ struct SimpleRuleTip: Tip {
         Text("This is the message for the Simple Rule Tip.")
     }
 
-    var asset: Image? {
+    var image: Image? {
         Image(systemName: "lightbulb.fill")
     }
     

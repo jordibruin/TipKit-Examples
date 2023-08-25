@@ -18,7 +18,7 @@ struct SimplePopOverTip: Tip {
         Text("This is the message for the Simple Popover Tip.")
     }
 
-    var asset: Image? {
+    var image: Image? {
         Image(systemName: "lightbulb.fill")
     }
 }

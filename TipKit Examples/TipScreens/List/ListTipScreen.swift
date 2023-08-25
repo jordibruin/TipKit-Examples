@@ -12,7 +12,9 @@ struct ListTipScreen: View {
         List {
             ForEach(1...4, id: \.self) { index in
                 Button {
-                    ListCellTip.showTip.donate()
+                    Task {
+                        await ListCellTip.showTip.donate()
+                    }
                 } label: {
                     Text("Index \(index)")
                 }

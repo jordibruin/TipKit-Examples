@@ -21,7 +21,7 @@ struct ListCellTip: Tip {
         Text("This is the message for the List Cell Tip.")
     }
 
-    var asset: Image? {
+    var image: Image? {
         Image(systemName: "lightbulb.fill")
     }
     
