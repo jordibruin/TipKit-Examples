@@ -24,8 +24,8 @@ struct SimplePopOverTipScreen: View {
                 }) {
                     Image(systemName: favorited ? "star.fill" : "star")
                 }
+                .buttonStyle(.plain) // Currently toolbar buttons that want to show a popover tip need to have a style specified. Please see https://developer.apple.com/forums/thread/735961.
                 .popoverTip(SimplePopOverTip(), arrowEdge: .top)
-    
             }
             )
         }
